@@ -150,10 +150,10 @@ noresetsine:
 	jsr checkcollision
 	jsr checkscore
 
-	lda	combotimer
-	beq @slem
-	jmp lock
-@slem:
+;	lda	combotimer
+;	beq @done
+;	jmp lock
+;@done:
 	jmp lock
 
 irq:

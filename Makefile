@@ -1,6 +1,10 @@
-spike: spikec64like.asm
-	ca65 -o spikec64like.o -t c64 spikec64like.asm
-	ld65 -o spikec64like.prg -C c64.cfg spikec64like.o
+# Spike C64 Dislike Makefile
+# Keeping it simple!
+
+spike: spikec64dislike.asm
+	ca65 -o spikec64dislike.o -t c64 spikec64dislike.asm
+	ld65 -o spikec64dislike.prg -C c64.cfg spikec64dislike.o
 
 clean:
-	rm *.o *.prg
+	-rm *.o
+	-rm *.prg
