@@ -1,9 +1,14 @@
 # spikec64dislike
 
+This is a bit embarrasing but I decided to share the code anyways. I did this game as an exercise and completed it in just three days, and it was the first thing I did for the C64. Some of the code is really bad (copy pasting some code instead of looping over it...).
+
+Unfortunately I seem to have lost the original goattracker song before exporting it to a binary so only a binary is included, all the graphics should be here in it's original Charpad/Spritepad-form.
+
+---
+
 Spike C64 Dislike
 -----------------
 v1.0 - released June 26th, 2012
-
 
 
 About the game:
@@ -13,13 +18,11 @@ This is my first ever Commodore 64 game and it's an adaption of the excellent ga
 Be sure to check out the original game - links can be found at the bottom of this document.
 
 
-
 How to play:
 ------------
 Use a joystick in port #2.
 
 Pressing any direction or the firebutton moves the player to the right. Avoid the spikes coming towards you. The interesting thing about the game is the scoring system. Each time you pass a spike your combo-bar will fill up, if you keep passing spikes without letting the combo-bar run out you will get more points for each spike. Also, if you keep the button pressed while passing multiple spikes, a multiplier builds up (to max 4 times the points) which makes an aggressive playing style really rewarding, but also dangerous.
-
 
 
 Tools used for developing the game:
